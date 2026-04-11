@@ -23,7 +23,7 @@ Some of the features PowerBarConfigurator provides are:
 
 The application follows a modular service-based architecture:
 
-### Core Services
+### 🧩 Core Services
 
 * **ConnectionService** - Handles Modbus communication and polling
 * **PowerService** - Tracks outlet states and overall system power state
@@ -80,10 +80,6 @@ All final code and design decisions were reviewed and validated by the developer
 ## ⚖️ License
 
 PowerBarConfiguration is licensed under the MIT License. Please see the [license file](https://github.com/Restoration-Hub/power-bar-software/blob/main/LICENSE.txt) for more information.
-
-## 👤 Author
-
-Aviaee Inc.
 
 ## 🙏 Acknowledgements
 
