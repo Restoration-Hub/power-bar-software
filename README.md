@@ -65,9 +65,9 @@ The application follows a modular service-based architecture:
 
 This project was developed with assistance from AI tools, including:
 
-* ChatGPT
-* Google Gemini
-* Github Copilot
+* ChatGPT-5 Thinking
+* Google Gemini 3 Thinking
+* Github Copilot Free
 
 These tools were used for:
 
