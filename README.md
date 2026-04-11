@@ -160,7 +160,7 @@ Aviaee Inc.
 
 ## 🙏 Acknowledgements
 
-* NModbus
-* LiveCharts2
-* STM32 SharpCubeProgrammer
-* MaterialDesignTheme
+* [NModbus](https://github.com/NModbus/NModbus)
+* [LiveCharts2](https://github.com/Live-Charts/LiveCharts2)
+* [STM32 SharpCubeProgrammer](https://github.com/K-Society/KSociety.SharpCubeProgrammer)
+* [MaterialDesignThemes](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)
