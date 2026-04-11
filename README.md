@@ -1,4 +1,4 @@
-# PowerBarConfigurator Software Application
+# PowerBarConfigurator
 
 ## 📖 Overview
 
@@ -8,53 +8,16 @@ The application provides real-time insights into electrical metrics (current, vo
 
 ## ✨ Features
 
-### 🔌 Device Connectivity
+Some of the features PowerBarConfigurator provides are:
 
-* Automatic detection of STM32 device over available serial ports
-* Modbus RTU communication using NModbus
-* Connection state tracking (Disconnected / Connecting / Connected)
-
-### ⚡ Power Control
-
-* Toggle individual outlets
-* Turn all outlets ON/OFF
-* Real-time outlet state monitoring
-
-### 📊 Real-Time Graphing
-
-* Live power usage graphs per outlet or combined
-* RMS current calculations from ADC samples
-* Smooth real-time updates using LiveCharts
-
-### 🧾 Data Logging
-
-* Log current, voltage, and power over time
-* Filter by individual outlet or all outlets
-* Export logs to CSV
-* UI-friendly live log stream
-
-### ⚙️ Configuration
-
-* Set amperage or wattage limits per outlet or globally
-* Automatic conversion between watts and amps
-* Input validation and safety limits
-
-### 📝 Activity Logging
-
-* Centralized logging system
-* Timestamped events
-* Exportable to CSV
-
-### 🎨 Theming
-
-* Light and Dark modes
-* Persisted user preferences
-
-### 🔄 Firmware Flashing
-
-* DFU mode support
-* Firmware flashing via STM32 CubeProgrammer API
-* Progress tracking and logging
+* 🔌 Device Connectivity
+* ⚡ Power Control
+* 📊 Real-Time Graphing
+* 🧾 Data Logging
+* ⚙️ Configuration
+* 📝 Activity Logging
+* 🎨 Theming
+* 🔄 Firmware Flashing
 
 ## 🏗️ Architecture
 
@@ -68,22 +31,6 @@ The application follows a modular service-based architecture:
 * **DataLoggingService** - Manages time-series logging and exports
 * **ActivityLogService** - Central logging system for UI and debugging
 * **FlashingService** - Handles firmware updates via DFU
-
-### UI Structure
-
-* WPF UserControls for each page:
-
-  * Home
-  * Graphs
-  * Data Logging
-  * Configuration
-  * Settings
-  * About
-
-* Custom controls:
-
-  * InfoCard
-  * MultiValueInfoCard
 
 ## 📦 Requirements
 
@@ -114,26 +61,6 @@ The application follows a modular service-based architecture:
 * Logging and graphing require an active connection
 * Current limits are capped at **20A max**
 
-## 🗂️ Project Structure
-
-```
-PowerBarConfigurator/
-|
-|-- Core/
-|   |-- Services/
-|   |-- Models/
-|
-|-- Controls/
-|
-|-- Pages/
-|
-|-- Styles/
-|
-|-- Themes/
-|
-|-- App.xaml / MainWindow.xaml
-```
-
 ## 🤖 AI Disclosure
 
 This project was developed with assistance from AI tools, including:
@@ -152,7 +79,7 @@ All final code and design decisions were reviewed and validated by the developer
 
 ## ⚖️ License
 
-MIT License
+PowerBarConfiguration is licensed under the MIT License. Please see the [license file](https://github.com/Restoration-Hub/power-bar-software/blob/main/LICENSE.txt) for more information.
 
 ## 👤 Author
 
