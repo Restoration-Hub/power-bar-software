@@ -1,12 +1,12 @@
 # PowerBarConfigurator Software Application
 
-## Overview
+## 📖 Overview
 
 **PowerBarConfigurator** is a WPF desktop application designed to monitor, control, and configure a multi-outlet power bar device powered by an STM32 microcontroller over Modbus (RTU via serial).
 
 The application provides real-time insights into electrical metrics (current, voltage, power), allows outlet control, supports data logging and visualization, and enables firmware flashing via DFU mode.
 
-## Features
+## ✨ Features
 
 ### 🔌 Device Connectivity
 
@@ -56,7 +56,7 @@ The application provides real-time insights into electrical metrics (current, vo
 * Firmware flashing via STM32 CubeProgrammer API
 * Progress tracking and logging
 
-## Architecture
+## 🏗️ Architecture
 
 The application follows a modular service-based architecture:
 
@@ -85,7 +85,7 @@ The application follows a modular service-based architecture:
   * InfoCard
   * MultiValueInfoCard
 
-## Requirements
+## 📦 Requirements
 
 * Windows OS
 * .NET (WPF compatible version)
@@ -93,7 +93,7 @@ The application follows a modular service-based architecture:
 * USB-to-Serial connection
 * STM32 DFU support (for firmware flashing)
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone the repository:
 
@@ -107,14 +107,14 @@ The application follows a modular service-based architecture:
 
 4. Connect your device and click **Connect**
 
-## Usage Notes
+## 🧠 Usage Notes
 
 * Ensure the correct voltage setting (120V / 240V) before connecting
 * Do not disconnect the device during firmware flashing
 * Logging and graphing require an active connection
 * Current limits are capped at **20A max**
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 PowerBarConfigurator/
@@ -134,7 +134,7 @@ PowerBarConfigurator/
 |-- App.xaml / MainWindow.xaml
 ```
 
-## AI Disclosure
+## 🤖 AI Disclosure
 
 This project was developed with assistance from AI tools, including:
 
@@ -150,15 +150,15 @@ These tools were used for:
 
 All final code and design decisions were reviewed and validated by the developer.
 
-## License
+## ⚖️ License
 
 MIT License
 
-## Author
+## 👤 Author
 
 Aviaee Inc.
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 * NModbus
 * LiveCharts2
