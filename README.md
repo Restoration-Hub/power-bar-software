@@ -45,7 +45,7 @@ The application follows a modular service-based architecture:
 1. Clone the repository:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Restoration-Hub/power-bar-software.git
    ```
 
 2. Open the solution in Visual Studio
