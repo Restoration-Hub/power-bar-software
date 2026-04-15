@@ -1,29 +1,29 @@
 # PowerBarConfigurator
 
-## 📖 Overview
+## Overview
 
 **PowerBarConfigurator** is a WPF desktop application designed to monitor, control, and configure a multi-outlet power bar device powered by an STM32 microcontroller over Modbus (RTU via serial).
 
 The application provides real-time insights into electrical metrics (current, voltage, power), allows outlet control, supports data logging and visualization, and enables firmware flashing via DFU mode.
 
-## ✨ Features
+## Features
 
 Some of the features PowerBarConfigurator provides are:
 
-* 🔌 Device Connectivity
-* ⚡ Power Control
-* 📊 Real-Time Graphing
-* 🧾 Data Logging
-* ⚙️ Configuration
-* 📝 Activity Logging
-* 🎨 Theming
-* 🔄 Firmware Flashing
+* Device Connectivity
+* Power Control
+* Real-Time Graphing
+* Data Logging
+* Configuration
+* Activity Logging
+* Theming
+* Firmware Flashing
 
-## 🏗️ Architecture
+## Architecture
 
 The application follows a modular service-based architecture:
 
-### 🧩 Core Services
+### Core Services
 
 * **ConnectionService** - Handles Modbus communication and polling
 * **PowerService** - Tracks outlet states and overall system power state
@@ -32,7 +32,7 @@ The application follows a modular service-based architecture:
 * **ActivityLogService** - Central logging system for UI and debugging
 * **FlashingService** - Handles firmware updates via DFU
 
-## 📦 Requirements
+## Requirements
 
 * Windows OS
 * .NET (WPF compatible version)
@@ -40,7 +40,7 @@ The application follows a modular service-based architecture:
 * USB-to-Serial connection
 * STM32 DFU support (for firmware flashing)
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 
@@ -54,14 +54,14 @@ The application follows a modular service-based architecture:
 
 4. Connect your device and click **Connect**
 
-## 🧠 Usage Notes
+## Usage Notes
 
 * Ensure the correct voltage setting (120V / 240V) before connecting
 * Do not disconnect the device during firmware flashing
 * Logging and graphing require an active connection
 * Current limits are capped at **20A max**
 
-## 🤖 AI Disclosure
+## AI Disclosure
 
 This project was developed with assistance from AI tools, including:
 
@@ -73,15 +73,15 @@ These tools were used for:
 
 * Documentation writing
 * Code cleanup and refactoring
-* Assisting with integration and implementation details
+* Assisting with implementation details
 
 All final code and design decisions were reviewed and validated by the developer.
 
-## ⚖️ License
+## License
 
 PowerBarConfiguration is licensed under the MIT License. Please see the [license file](https://github.com/Restoration-Hub/power-bar-software/blob/main/LICENSE.txt) for more information.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * [NModbus](https://github.com/NModbus/NModbus)
 * [LiveCharts2](https://github.com/Live-Charts/LiveCharts2)
